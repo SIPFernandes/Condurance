@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Condurance.Tests", "Condurance.Tests\Condurance.Tests.csproj", "{8BD24932-29F4-4596-B10E-476465A58891}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9B9F57E2-3ACC-48A7-8C26-F46B35001405} = {9B9F57E2-3ACC-48A7-8C26-F46B35001405}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Condurance.App", "Condurance.App\Condurance.App.csproj", "{9B9F57E2-3ACC-48A7-8C26-F46B35001405}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BD24932-29F4-4596-B10E-476465A58891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD24932-29F4-4596-B10E-476465A58891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD24932-29F4-4596-B10E-476465A58891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD24932-29F4-4596-B10E-476465A58891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B9F57E2-3ACC-48A7-8C26-F46B35001405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B9F57E2-3ACC-48A7-8C26-F46B35001405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B9F57E2-3ACC-48A7-8C26-F46B35001405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B9F57E2-3ACC-48A7-8C26-F46B35001405}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCE341B6-7431-4B7A-BFA7-62B711755E5E}
+	EndGlobalSection
+EndGlobal
