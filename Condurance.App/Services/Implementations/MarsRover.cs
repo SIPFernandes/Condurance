@@ -11,6 +11,7 @@ namespace Condurance.App.Services.Implementations
         {
             _grid= grid;
         }
+
         public string execute(string command)
         {
             var charArray = command.ToCharArray();
